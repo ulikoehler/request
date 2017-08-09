@@ -27,6 +27,7 @@ request('http://www.google.com', function (error, response, body) {
 
 ## Table of contents
 
+- [Query parameters](#query-parameters)
 - [Streaming](#streaming)
 - [Promises & Async/Await](#promises--asyncawait)
 - [Forms](#forms)
@@ -47,6 +48,16 @@ lots of [usage examples](#examples) and several
 
 ---
 
+## Query parameters
+
+You can easily add query parameters to a request:
+
+```js
+// Requests http://example.com/myservice?key=value&n=2
+request.get({url: 'http://example.com/myservice', qs: {key: 'value', n: 2}, function(error, response, body) {
+    // ...
+})
+```
 
 ## Streaming
 
