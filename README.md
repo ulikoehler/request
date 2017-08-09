@@ -27,7 +27,7 @@ request('http://www.google.com', function (error, response, body) {
 
 ## Table of contents
 
-- [Query strings](#query-strings)
+- [Query parameters](#query-parameters)
 - [Streaming](#streaming)
 - [Promises & Async/Await](#promises--asyncawait)
 - [Forms](#forms)
@@ -48,9 +48,9 @@ lots of [usage examples](#examples) and several
 
 ---
 
-## Query strings
+## Query parameters
 
-You can easily add a query string (represented by a dictionary of parameters) to a request:
+You can easily add query parameters to a request:
 
 ```js
 // Requests http://example.com/myservice?key=value&n=2
