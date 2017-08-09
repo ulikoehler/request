@@ -27,7 +27,7 @@ request('http://www.google.com', function (error, response, body) {
 
 ## Table of contents
 
-- [Query strings](#query-strings
+- [Query strings](#query-strings)
 - [Streaming](#streaming)
 - [Promises & Async/Await](#promises--asyncawait)
 - [Forms](#forms)
